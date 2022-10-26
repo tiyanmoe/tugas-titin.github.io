@@ -10,13 +10,13 @@ This library takes in raw images and will locate, extract and parse any QR code 
 
 ## Installation
 
-1. npm install
+npm install
 
 ### NPM
 Available [on npm](https://www.npmjs.com/package/jsqr). Can be used in a Node.js program or with a module bundler such as Webpack or Browserify.
 
 ```
-2. npm install jsqr --save
+npm install jsqr --save
 ```
 
 ```javascript
@@ -85,12 +85,12 @@ Because the library is written in [typescript](http://www.typescriptlang.org/) y
 jsQR is written using [typescript](http://www.typescriptlang.org/).
 You can view the development source in the [`src`](./src) directory.
 
-3. cd src
+cd src
 
 Tests can be run with
 
 ```
-4. npm test
+npm test
 ```
 
 Besides unit tests the test suite contains several hundred images that can be found in the [/tests/end-to-end/](./tests/end-to-end/) folder.
@@ -99,12 +99,9 @@ Not all the images can be read. In general changes should hope to increase the n
 and failing can be found at [/tests/end-to-end/report.json](./tests/end-to-end/report.json)
 
 After testing any changes, you can compile the production version by running
+cd tests
 ```
-
-5. cd tests
-
-
-6. npm run-script build
+npm run-script build
 ```
 
 - Source hosted at [GitHub](https://github.com/cozmo/jsQR)
